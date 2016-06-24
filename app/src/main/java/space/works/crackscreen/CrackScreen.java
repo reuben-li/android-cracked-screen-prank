@@ -24,7 +24,7 @@ public class CrackScreen extends Service {
         super.onCreate();
 
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-2059382170925909/7991746855");
+        mInterstitialAd.setAdUnitId("ca-app-pub-2059382170925909/6634720855");
         AdRequest interstitialRequest = new AdRequest.Builder().build();
         mInterstitialAd.loadAd(interstitialRequest);
 
